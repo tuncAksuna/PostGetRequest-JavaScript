@@ -5,7 +5,7 @@ var token = `Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZW5hbnRAdGhpbmdzYm9hcmQub3J
 
 
 document.getElementById('btnApi').addEventListener('click', () => {
-    var deviceNumberValue = parseInt(deviceNumber.value); //! parseInt() işlemi mantıklı mı ? 
+    var deviceNumberValue = parseInt(deviceNumber.value); 
 
     for (var i = 0; i < deviceNumberValue; i++) {
         var val = {
